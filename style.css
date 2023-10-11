@@ -1,0 +1,590 @@
+
+*
+{
+
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: serif;
+}
+.space{
+   width: 100%;
+   height: 100px;
+   background-color: white;
+
+}
+
+#fancy-button h1{
+
+ color: #943126 ;
+ font-size: 55px;
+ padding-bottom: 10px;
+ transition: 0.50s;
+
+
+}
+
+
+#fancy-button h1:hover{
+
+ color: #A93226 ;
+ letter-spacing: 3px;
+ text-shadow: 1px 2px 1px red;
+
+
+
+}
+
+
+#fancy-button .container{
+
+   background-color: #ddd ;
+   width: 100%;
+   height: 700px;
+   align-items:center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+
+
+}
+
+
+#fancy-button .container .btn{
+
+  width: 250px;
+  height: 80px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #8E44AD;
+  border-radius: 35px;
+  display: block;
+  box-shadow: 6px 3px 2px 2px black;
+  overflow: hidden;
+  letter-spacing: 1px; 
+  transition: 1.5s;
+
+}
+
+
+#fancy-button .container .btn a{
+
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 200 ;
+
+
+}
+
+
+#fancy-button .container .btn:hover{
+   letter-spacing: 8px;
+   background-color: #1A5276   ;
+   box-shadow: 6px 2px 8px 2px #5DADE2;
+   width: 280px;
+   height: 85px;
+}
+
+
+/*---------------------------now styling card gourp---task2-------------*/
+
+#card-section{
+
+  background-color: #BFC9CA;
+  width: 100%;
+  font-size: 25px;
+  box-sizing: border-box;
+  padding: 50px;
+  overflow: hidden;
+
+}
+
+
+#card-section h1{
+   text-align: center;
+   padding-top: 50px;
+   font-size: 50px;
+   color:#943126  ;
+   transition: 0.5s;
+}
+
+#card-section h1:hover{
+ letter-spacing: 5px;
+ color:  #C0392B ;
+ text-shadow: 1px 2px 1px red;
+}
+
+
+
+#card-section .card-group{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ padding-top: 40px;
+ margin: 10px;
+
+
+
+}
+
+
+
+#card-section .card-group .card{
+
+  height: 500px; 
+  margin: 10px;
+  padding: 0px;
+  border-radius: 20px;
+  overflow: hidden;
+
+
+
+
+}
+
+#card-section .card-group .card:hover{
+
+  box-shadow: 5px  15px 25px  #ECF0F1 ;
+
+
+
+
+}
+
+
+
+
+#card-section .card img{
+
+ height: 250px;
+ width: 300px;
+ margin:0px;
+ box-sizing: content-box;
+
+
+
+
+}
+
+
+
+
+#card-section .card .card-info{
+ margin-top: -6px;
+ padding: 40px;
+ text-align: center;
+ background-color: white;
+ height: 300px;
+
+
+
+}
+
+
+
+#card-section .card .card-info h3{
+  font-size: 40px;
+  letter-spacing: 1.2px;
+}
+
+#card-section .card .card-info p{
+  font-size: 30px;
+  letter-spacing: 1.2px;
+}
+
+
+#card-section .card-info a{
+
+   display: inline;
+   text-decoration: none;
+   position: relative;
+   top: 50px;
+   padding: 20px;
+   background-color: #008080;
+   color: white;
+   border-radius: 20px;
+   transition: 1.5s;
+
+
+}
+
+#card-section .card-info a:hover{
+
+  letter-spacing: 0.5rem;
+  padding: 25px;
+  border-radius: 30px;
+
+}
+
+
+
+
+
+
+/*  -----------------form-section----------Login form sytle------------------------->*/
+#form-section-1{
+   display: flex;
+   justify-content: center;
+   background-color: #85929E ; 
+   padding: 105px;
+   height: 800px;
+}
+
+#form-section-1 .login-form{
+
+ margin: 10px;
+ padding: 55px;
+ border: 3px solid black;
+ height: 600px;
+ width: 450px;
+ display: flex ; 
+ flex-direction: column;
+ justify-content: center;
+ border-radius: 20px;
+ background-color: #283747;
+
+
+}
+
+
+#form-section-1 .login-form h2{
+
+   font-size: 64px;
+   text-align: center;
+   padding-bottom: 30px;
+   color:#B3B6B7 ;
+
+}
+
+
+
+
+#form-section-1 .login-form span{
+   font-size: 36px;
+   margin: 50px 0px;
+   color: #D0D3D4;
+}
+
+
+#form-section-1 .login-form input[type=text],
+#form-section-1 .login-form input[type=password]{
+   width: 100%;
+   height: 50px;
+   border-radius: 15px;
+   padding: 15px;
+   letter-spacing: .1rem;
+   font-size: 32px;
+   background-color: #5D6D7E ;
+
+}
+
+
+#form-section-1 .login-form input[type=checkbox]{
+
+}
+
+#form-section-1 .login-form input[type=submit]{
+   transform: translateX(15px);
+   font-size: 30px;
+   padding: 10px;
+   margin: 30px;
+   border-radius: 30px;
+   width: 250px;
+   color: white;
+   background-color: #2980B9 ;
+   transition: 0.45s;
+   border: 0px;
+   box-shadow: 5px 2px 5px 1px #1C2833 ;
+
+}
+
+
+#form-section-1 .login-form input[type=submit]:hover{
+
+
+   letter-spacing: 0.8px;
+   background-color: #296AB9;
+}
+
+
+#form-section-1 .login-form input[type=submit]:active{
+
+
+   letter-spacing: 0.8px;
+   background-color: #CD6155  ;
+}
+
+#form-section-1 .login-form p{
+   font-size: 25px;
+   color: #979A9A ;
+}
+
+
+
+#form-section-1 .login-form p,a{
+   font-size: 26px;
+   font-weight:bold;
+
+}
+
+#form-section-1 .login-form a{
+   font-size: 30px;
+   color: #2471A3 ;
+   text-decoration: none;
+}
+
+#form-section-1 .login-form a:hover{
+
+   text-decoration: underline;
+}
+
+
+
+/*------------------------------------Register Form----------------------*/
+
+#form-section-2{
+   display: flex;
+   justify-content: center;
+   background-color: #85929E ; 
+   padding: 35px;
+}
+
+
+
+#form-section-2 .register-form{
+
+   border: 1px solid black; 
+   background-color: #283747;
+   margin: 0px;
+   padding: 10px;
+   border: 1px solid black; 
+   border-radius: 30px;
+   height: 800px;
+   width:550px ;
+   transition: 0.5s;
+
+
+}
+
+#form-section-2 .register-form:hover{
+
+   border: 1px solid #CD6155;
+
+
+}
+
+#form-section-2 .register-form h2{
+
+  margin: 30px;
+  padding: 20px;
+  font-size: 50px;
+  color: #85929E ;
+
+
+
+}
+
+
+#form-section-2 .register-form .input-text{
+
+
+   background-color: #283747;
+   padding: 5px;
+   margin-left: 40px;
+   height: 100px;
+   width: 450px;
+
+
+
+}
+
+
+
+
+
+#form-section-2 .register-form span{
+   font-size:30px;
+   color: white ;
+   padding: 10px;
+
+}
+
+
+#form-section-2 .register-form input[type]{
+   padding: 15px;
+   width: 100%;
+   border-radius: 20px;
+   font-size: 20px;
+
+}
+
+
+#form-section-2 .register-form input[type=submit]{
+
+ margin: 30px;
+ padding: 15px;
+ width: 160px;
+ font-size: 34px;
+ transform: translateX(160px);
+ border-radius: 250px;
+ background-color: #154360;
+ border: 3px solid #3498DB ;
+ transition: 0.5s;
+ color: #D0D3D4  ;
+
+}
+
+
+#form-section-2 .register-form input[type=submit]:hover{
+
+ border-color: #DC7633 ;
+}
+
+#form-section-2 .register-form input[type=submit]:active{
+
+ border-color: #C0392B ;
+ background-color: #7D3C98 ;
+}
+
+#form-section-2 .register-form p{
+   color: #95A5A6  ;
+   
+}
+
+#form-section-2 .register-form p a{
+   color: #D0D3D4 ;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+
+#form-section-2 .register-form p a:hover{
+   color: #909497;
+   text-decoration: underline 3px red;
+
+}
+
+#form-section-2 .register-form p a:active{
+   color: #F9E79F   ;
+   
+
+}
+
+
+
+
+/* /////////////////////Calendar Styling below-----------------------------------*/
+
+
+#calendar-section{
+
+   position: relative;
+   background-color:#757F85 ;  
+   padding-top: 100px;;
+   padding-bottom: 100px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+
+
+}
+
+
+#calendar-section .calendar-container{
+
+
+   background-color: #566D7E;
+   color: white;
+   margin: 0px 0px;
+   border: 10px solid #0A0D10 ;
+   display: inline-block;
+   border-collapse: collapse;
+   border-radius: 10px;
+   
+   transform: translateX(0px);
+   overflow:hidden;
+
+
+
+}
+
+
+#calendar-section .calendar-container:hover{
+
+
+  box-shadow: 1px 1px 1px 1px;
+
+
+}
+
+
+#calendar-section .head{
+
+   border:8px solid #0A0D10 ;
+   height: 120px;
+   width: 599px;
+   padding: 25px;
+   text-align: center;
+   background-color:#34495E ;
+   transition: 0.5s;
+
+}
+
+
+#calendar-section .head:hover{
+
+ letter-spacing: 1.2px;
+ background-color:#103F5F ;
+ 
+}
+
+#calendar-section .head h2{
+
+   font-size: 36px;
+
+
+}
+
+
+#calendar-section .calendar-container .calendar-body table,td,th{
+
+ padding: 28px;
+ font-size: 25px;
+ border: 4px solid #0A0D10;
+ border-collapse: collapse;
+ 
+}
+
+
+#calendar-section .calendar-container .calendar-body td:hover{
+
+
+ background-color:#3B3131;
+ color: #DB5038;
+ font-weight: bold;
+
+ 
+}
+
+
+
+#calendar-section .calendar-container .calendar-body th:hover{
+
+
+ background-color:#F3E50F  ;
+ color: #04BCF7 ;
+ font-weight: bold;
+
+ 
+}
+
+
+
+
